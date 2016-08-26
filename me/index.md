@@ -6,7 +6,7 @@ Hola, mi nombre es Albeiro Cuadrado Machado, estudiante de Ingenieria de Sistema
 
 
 # Que has hecho?
-Puedes revisar mi [Github](https://github.com/getmicah).
+Puedes revisar mi [Github](https://github.com/albcm).
 
 # En que lenguajes de programación tienes experiencia?
 Principalmente C#, Python, C++,  
