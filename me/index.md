@@ -2,10 +2,11 @@
 layout: about
 ---
 
-Hello, my name is Micah Cowell. I am a self proclaimed web developer who likes the internet, hip hop, and fancy yo-yos.
+Hola, mi nombre es Albeiro Cuadrado Machado, estudiante de Ingenieria de Sistemas de la Universidad de Cordoba-Colombia
 
-# What do you do?
-I make website and stuff. All the code I write is on my [Github](https://github.com/getmicah).
 
-# What programming languages do you use?
-When making websites I like using Javascript and Sass. I also like Python and making linux scripts.
+# Que has hecho?
+Puedes revisar mi [Github](https://github.com/getmicah).
+
+# En que lenguajes de programación tienes experiencia?
+Principalmente C#, Python, C++,  
