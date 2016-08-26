@@ -13,4 +13,4 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 host: 158.69.158.180
-port:80 
+port: 4000  
