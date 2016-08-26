@@ -2,10 +2,7 @@
 <<<<<<< HEAD
 title: La morada del que no duerme 
 email: machado.albeiro@protonmail.com
-=======
-title: Your awesome title
-email: your-email@domain.com
->>>>>>> acb9434ea7803a294226fa19280c11956a60d3c9
+
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -16,8 +13,7 @@ twitter_username: jekyllrb
 <<<<<<< HEAD
 github_username:  albcm
 =======
-github_username:  jekyll
->>>>>>> acb9434ea7803a294226fa19280c11956a60d3c9
+
 
 # Build settings
 markdown: kramdown
