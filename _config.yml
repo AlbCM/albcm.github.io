@@ -1,18 +1,28 @@
-
-title: La morada del que no duerme 
-email: machado.albeiro@protonmail.com
-
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: lcrackers
-github_username:  albcm
+# Blog settings
+permalink: /blog/:title
 
 
+# My variables
+name: AlbertCM
+description: Fractal lover
+google_verification: null
 
-# Build settings
+
+# File management
+include: [".htaccess"]
+exclude: ["README.md", "LICENSE"]
+
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+
+# Markdown
 markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
 
