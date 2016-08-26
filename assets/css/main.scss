@@ -194,10 +194,10 @@ ul {
 			padding: 3px;
 			font-size: 0.9em;
 			border-radius: 3px;
-			background: $color-grey;
+			background: none;
 		}
         
-        .highlight  { background: #999988; }
+        .highlight  { background: $color-grey; }
         .highlight .c { color: #999988; font-style: italic } /* Comment */
         .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
         .highlight .k { font-weight: bold } /* Keyword */
