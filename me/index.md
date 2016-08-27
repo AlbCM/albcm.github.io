@@ -9,4 +9,4 @@ Hola, mi nombre es Albeiro Cuadrado Machado, estudiante de Ingenieria de Sistema
 Puedes revisar mi [Github](https://github.com/albcm).
 
 # En que lenguajes de programación tienes experiencia?
-Principalmente C#, Python, C++,  
+Principalmente C#, Python, C++, Octave, Bash, Arduino, entre otros..
