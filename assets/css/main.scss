@@ -5,8 +5,8 @@
 @import "config";
 
 body {
-	color: $color-black;
-	background: $color-white;
+	color: #38DA3A;
+	background: $color-black;
 	font-family: 'Inconsolata', ;
 	font-size: 100%;
 	font-weight: 400;
@@ -19,8 +19,9 @@ p {
 	line-height: 150%;
 }
 a {
-  color: $color-link;
+  color: $color-white;
   text-decoration: none;
+  font-weight: bold;
   &:visited {
 	color: $color-link;
 	text-decoration: none;
