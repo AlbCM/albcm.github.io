@@ -6,7 +6,7 @@
 
 body {
 	color: #38DA3A;
-	background: $color-black;
+	background: #000000;
 	font-family: 'Inconsolata', ;
 	font-size: 100%;
 	font-weight: 400;
@@ -19,11 +19,11 @@ p {
 	line-height: 150%;
 }
 a {
-  color: $color-white;
+  color: #FFF;
   text-decoration: none;
   font-weight: bold;
   &:visited {
-	color: $color-link;
+	color: $color-white;
 	text-decoration: none;
   }
   &:hover {
