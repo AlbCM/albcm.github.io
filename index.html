@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+</style>
+</head>
 <div class="header">
     <h1>{{ site.name }}</h1>
     <ul>
@@ -13,7 +22,7 @@ layout: default
     </ul>
 </div>
 <div class="blog">
-    <!--<img src="/assets/img/mrclamator.png" width="250" height="250" align="center" />-->
+    <img src="/assets/img/mrclamator.png" width="100" height="140" align="center" />
     <h1>Posts:</h1>
     <ul>
         {% for post in site.posts %}
@@ -30,3 +39,4 @@ layout: default
 </div>
 <script src="/assets/js/main.js"></script>
 -->
+</html>
