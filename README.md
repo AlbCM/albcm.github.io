@@ -1,6 +1,6 @@
 # albcm.github.io
 
-My Blog made with [jekyll](http://jekyllrb.com)  Hosted with Github Pages.
+My blog made with [jekyll](http://jekyllrb.com)  Hosted with Github Pages.
 
 Visit me: https://albcm.github.io
 
@@ -8,7 +8,7 @@ Visit me: https://albcm.github.io
 Todo este material esta bajo la -MIT License-
 
 ### Future features (:
-- [ ] Sistema de Topics
+- [ ] Topics System
 
 ### Upcoming blogs:
 
