@@ -1,18 +1,18 @@
 # albcm.github.io
 
-Blog hecho con [jekyll](http://jekyllrb.com)  alojado con Github Pages.
+My Blog made with [jekyll](http://jekyllrb.com)  Hosted with Github Pages.
 
-Visitame: https://albcm.github.io
+Visit me: https://albcm.github.io
 
-### Licencia
+### Licence 
 Todo este material esta bajo la -MIT License-
 
-### Caracteristicas por agregar:
+### Future features (:
 - [ ] Sistema de Topics
 
-### Blogs por agregar:
+### Upcoming blogs:
 
-- [ ] Construccion sumobot
+- [ ] Sumobot
 - [ ] CRC
-- [ ] Rutina Boxing
+- [ ] Boxing Routine
 
