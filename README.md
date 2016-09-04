@@ -4,7 +4,7 @@ Blog hecho con [jekyll](http://jekyllrb.com) y alojado con Github Pages.
 
 Visitame: https://albcm.github.io
 
-### License
+### Licencia
 Todo este material esta bajo la -MIT License-
 
 ### Por agregar:
