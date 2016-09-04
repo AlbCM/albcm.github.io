@@ -7,6 +7,13 @@ Visitame: https://albcm.github.io
 ### Licencia
 Todo este material esta bajo la -MIT License-
 
-### Por agregar:
+### Caracteristicas por agregar:
 
 - [ ] Sistema de Topics
+- 
+### Blogs por agregar:
+
+- [ ] Construccion sumobot
+- [ ] CRC
+- [ ] Rutina Boxing
+
