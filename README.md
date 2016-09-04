@@ -1,6 +1,6 @@
 # albcm.github.io
 
-Blog hecho con [jekyll](http://jekyllrb.com) y alojado con Github Pages.
+Blog hecho con [jekyll](http://jekyllrb.com)  alojado con Github Pages.
 
 Visitame: https://albcm.github.io
 
