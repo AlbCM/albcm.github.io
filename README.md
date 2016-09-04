@@ -8,9 +8,8 @@ Visitame: https://albcm.github.io
 Todo este material esta bajo la -MIT License-
 
 ### Caracteristicas por agregar:
-
 - [ ] Sistema de Topics
-- 
+
 ### Blogs por agregar:
 
 - [ ] Construccion sumobot
