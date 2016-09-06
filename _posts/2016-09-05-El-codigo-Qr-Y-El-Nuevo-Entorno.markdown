@@ -23,11 +23,10 @@ Dentro de las funciones comunes de un Código qr tenemos:
 
 Los códigos QR juegan un rol relevante en la aplicación de la computación ubicua por varias razones entre ellas tenemos:
   
-1. Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
-2. Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
-3. La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
-4. Ofrece una rápida respuesta..
-
+- Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
+- Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
+- La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
+- Ofrece una rápida respuesta.
 
 Check this:
 
