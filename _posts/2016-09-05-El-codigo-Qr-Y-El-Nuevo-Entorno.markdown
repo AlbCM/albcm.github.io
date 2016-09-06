@@ -4,15 +4,13 @@ title:  "El codigo QR y el nuevo entorno "
 date:   2016-09-05 22:19:13
 categories: Programacion
 ---
+![QR Code](/assets/img/qr.png)
 
 No es un secreto que cada día nos vemos envueltos en un entorno más integrado con la informática, este paradigma recibe varios nombres entre ellos: `ubicom`, `inteligencia ambiental`, `pervasive computing`, `Internet of things`, `objetos inteligentes`, `spimes`, `everyware` aunque cada uno de estos nombres puede tener un enfoque ligeramente diferente, nos hablan de un entorno en el que las personas no perciban los ordenadores como objetos diferenciados.
 
 Este nuevo paradigma gana relevancia en el mundo de la academia e investigación donde incluso es considerada una disciplina, los científicos e investigadores ven un gran desafío ya que esta "nueva" tendencia puede alcanzar grandes impactos a nivel social, científico, tecnológico y finalmente económicos.
 
 Hoy hablaré acerca de los Códigos QR, estos son módulos para almacenar información en una matriz de puntos, poseen tres cuadros en las esquinas que lo caracterizan y permiten detectar la posición del código al lector, aunque el desarrollo inicial de estos códigos era la industria de la automoción hoy día los encontramos en todas partes publicidad, campañas de marketing, diseño grafico, papelería corporativa, Internet, webs, blogs, etc.. 
-
-![QR Code](/assets/img/qr.png)
-
 
 Dentro de las funciones comunes de un Código QR tenemos:
 
