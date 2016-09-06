@@ -11,7 +11,10 @@ Este nuevo paradigma gana relevancia en el mundo de la academia e investigación
 
 Hoy hablaré acerca de los Códigos QR, estos son módulos para almacenar información en una matriz de puntos, poseen tres cuadros en las esquinas que lo caracterizan y permiten detectar la posición del código al lector, aunque el desarrollo inicial de estos códigos era la industria de la automoción hoy día los encontramos en todas partes publicidad, campañas de marketing, diseño grafico, papelería corporativa, Internet, webs, blogs, etc.. 
 
-![QR Code](/assets/img/qr.png)
+<p align="center">
+  <img src="https://albcm.github.io/assets/img/qr.png" alt="Qr Code"/>
+</p>
+
 
 Dentro de las funciones comunes de un Código QR tenemos:
 
