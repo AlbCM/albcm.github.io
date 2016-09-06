@@ -5,28 +5,43 @@ date:   2016-09-05 22:19:13
 categories: Programacion
 ---
 
-No es un secreto que cada día nos vemos envueltos en un entorno mas integrado con la informática, este paradigma recibe varios nombres entre ellos: `ubicom`, `inteligencia ambiental`, `pervasive computing`, `Internet of things`, `objetos inteligentes`, `spimes`, `everyware` aunque cada uno de estos nombres puede tener un enfoque ligeramente diferente, nos hablan de un entorno en el que las personas no perciban los ordenadores como objetos diferenciados.
+No es un secreto que cada día nos vemos envueltos en un entorno más integrado con la informática, este paradigma recibe varios nombres entre ellos: `ubicom`, `inteligencia ambiental`, `pervasive computing`, `Internet of things`, `objetos inteligentes`, `spimes`, `everyware` aunque cada uno de estos nombres puede tener un enfoque ligeramente diferente, nos hablan de un entorno en el que las personas no perciban los ordenadores como objetos diferenciados.
 
-Este nuevo paradigma gana relevancia en el mundo de la academia e investigación que incluso es considerada una disciplina en donde los científicos e investigadores ven un gran desafío,  esta "nueva" tendencia puede alcanzar grandes impactos a nivel social, científico, tecnológico y finalmente económicos.
+Este nuevo paradigma gana relevancia en el mundo de la academia e investigación donde incluso es considerada una disciplina, los científicos e investigadores ven un gran desafío ya que esta "nueva" tendencia puede alcanzar grandes impactos a nivel social, científico, tecnológico y finalmente económicos.
 
-Hoy hablaré acerca de los Códigos QR, son módulos para almacenar información en una matriz de puntos, poseen tres cuadros en las esquinas que lo caracterizan y permite detectar la posición del código al lector , aunque el desarrollo inicial de este era la industria de la automoción hoy DIA los encontramos en todas partes publicidad, campañas de marketing, diseño grafico, papelería corporativa, Internet, webs, blogs, etc.. 
+Hoy hablaré acerca de los Códigos QR, estos son módulos para almacenar información en una matriz de puntos, poseen tres cuadros en las esquinas que lo caracterizan y permiten detectar la posición del código al lector, aunque el desarrollo inicial de estos códigos era la industria de la automoción hoy día los encontramos en todas partes publicidad, campañas de marketing, diseño grafico, papelería corporativa, Internet, webs, blogs, etc.. 
 
-Dentro de las funciones comunes de un Código qr tenemos:
+![QR Code](/assets/img/qr.png)
 
-1. Abrir la URL de una página Web o perfil social.
-2. Leer un Texto.
-3. Enviar un email.
-4. Enviar un SMS.
-5. Realizar un llamada telefónica.
-6. Guadar un evento en la agenda.
-7. Ubicar un posición geográfica en un Google maps.
+
+Dentro de las funciones comunes de un Código QR tenemos:
+
+- Abrir la URL de una página Web o perfil social.
+- Leer un Texto.
+- Enviar un email.
+- Enviar un SMS.
+- Realizar un llamada telefónica.
+- Guadar un evento en la agenda.
+- Ubicar un posición geográfica en un Google maps.
+
 
 Los códigos QR juegan un rol relevante en la aplicación de la computación ubicua por varias razones entre ellas tenemos:
+  
+- Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
+- Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
+- La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
+- Ofrece una rápida respuesta.
 
+Existe un repositorio en mi [github](https://github.com/AlbCM) llamado [Qr-CamReader-and-WebBrowser](https://github.com/AlbCM/QR-CamReader-and-WebBrowser) en donde puedes encontrar una implentación Windows Forms desarrollada en C#, capaz de leer codigos QR a traves de una camara generica , la lectura obtenida del QrCode es redirigida a un elemento WebBrowser en caso que corresponda a una URL.
+
+<<<<<<< HEAD
 1. Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
 2. Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
 3. La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
 4. Ofrece una rápida respuesta.
+
+Ademas te ofrezco una [guia](https://docs.google.com/document/d/13tGz4cR4HOOD4ONd-fOKRGlSvY7FeTU_EaeTzRHo4tU/edit?usp=sharing) detallada de como hacer tu propia implementación basado en el código de arriba (: , donde te muestro como incluir las librerias, el codigo por sección y algunas consideraciones. Este código como su guia aun estan sujetos a cambios y revisiones, en todo caso si puedes dar tu aporte seria de gran ayuda. 
+
 
 Check this:
 
