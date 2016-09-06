@@ -11,8 +11,6 @@ Este nuevo paradigma gana relevancia en el mundo de la academia e investigación
 
 Hoy hablaré acerca de los Códigos QR, son módulos para almacenar información en una matriz de puntos, poseen tres cuadros en las esquinas que lo caracterizan y permite detectar la posición del código al lector , aunque el desarrollo inicial de este era la industria de la automoción hoy DIA los encontramos en todas partes publicidad, campañas de marketing, diseño grafico, papelería corporativa, Internet, webs, blogs, etc.. 
 
-
-
 Dentro de las funciones comunes de un Código qr tenemos:
 
 1.Abrir la URL de una página Web o perfil social.
@@ -23,15 +21,12 @@ Dentro de las funciones comunes de un Código qr tenemos:
 6.Guadar un evento en la agenda.
 7.Ubicar un posición geográfica en un Google maps.
 
-
 Los códigos QR juegan un rol relevante en la aplicación de la computación ubicua por varias razones entre ellas tenemos:
 
 1. Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
 2. Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
 3. La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
 4. Ofrece una rápida respuesta.
-
-
 
 Check this:
 *-Mobile and Ubiquitous Systems: Computing, Networking, and Services: 9th International Conference, MOBIQUITOUS 2012, Beijing, China, December 12-14, 2012. Revised Selected Papers.*
