@@ -5,7 +5,7 @@ date:   2016-09-05 22:19:13
 categories: Programacion
 ---
 
-No es un secreto que cada día nos vemos envueltos en un entorno mas integrado con la informática, este paradigma recibe varios nombres entre ellos: `ubicom`, `inteligencia ambiental`, `pervasive computing`, `Internet of things`, `objetos inteligentes`, `spimes`, `everyware` aunque cada uno de estos nombres puede tener un enfoque ligeramente diferente, nos hablan de un entorno en el que las personas no perciban los ordenadores como objetos diferenciados.
+No es un secreto que cada día nos vemos envueltos en un entorno más integrado con la informática, este paradigma recibe varios nombres entre ellos: `ubicom`, `inteligencia ambiental`, `pervasive computing`, `Internet of things`, `objetos inteligentes`, `spimes`, `everyware` aunque cada uno de estos nombres puede tener un enfoque ligeramente diferente, nos hablan de un entorno en el que las personas no perciban los ordenadores como objetos diferenciados.
 
 Este nuevo paradigma gana relevancia en el mundo de la academia e investigación donde incluso es considerada una disciplina, los científicos e investigadores ven un gran desafío ya que esta "nueva" tendencia puede alcanzar grandes impactos a nivel social, científico, tecnológico y finalmente económicos.
 
