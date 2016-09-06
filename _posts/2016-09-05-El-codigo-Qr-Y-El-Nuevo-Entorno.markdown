@@ -32,14 +32,7 @@ Los códigos QR juegan un rol relevante en la aplicación de la computación ubi
 
 Existe un repositorio en mi [github](https://github.com/AlbCM) llamado [Qr-CamReader-and-WebBrowser](https://github.com/AlbCM/QR-CamReader-and-WebBrowser) en donde puedes encontrar una implentación Windows Forms desarrollada en C#, capaz de leer codigos QR a traves de una camara generica , la lectura obtenida del QrCode es redirigida a un elemento WebBrowser en caso que corresponda a una URL.
 
-<<<<<<< HEAD
-1. Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
-2. Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
-3. La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
-4. Ofrece una rápida respuesta.
-
 Ademas te ofrezco una [guia](https://docs.google.com/document/d/13tGz4cR4HOOD4ONd-fOKRGlSvY7FeTU_EaeTzRHo4tU/edit?usp=sharing) detallada de como hacer tu propia implementación basado en el código de arriba (: , donde te muestro como incluir las librerias, el codigo por sección y algunas consideraciones. Este código como su guia aun estan sujetos a cambios y revisiones, en todo caso si puedes dar tu aporte seria de gran ayuda. 
-
 
 Check this:
 
