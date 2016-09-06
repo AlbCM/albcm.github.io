@@ -13,14 +13,13 @@ Hoy hablaré acerca de los Códigos QR, son módulos para almacenar información
 
 Dentro de las funciones comunes de un Código qr tenemos:
 
-1. Abrir la URL de una página Web o perfil social.
-2. Leer un Texto.
-3. Enviar un email.
-4. Enviar un SMS.
-5. Realizar un llamada telefónica.
-6. Guadar un evento en la agenda.
-7. Ubicar un posición geográfica en un Google maps.
-8. 
+- Abrir la URL de una página Web o perfil social.
+- Leer un Texto.
+- Enviar un email.
+- Enviar un SMS.
+- Realizar un llamada telefónica.
+- Guadar un evento en la agenda.
+- Ubicar un posición geográfica en un Google maps.
 
 Los códigos QR juegan un rol relevante en la aplicación de la computación ubicua por varias razones entre ellas tenemos:
   
