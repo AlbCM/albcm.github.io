@@ -41,3 +41,4 @@ Ademas te ofrezco una [guia](https://docs.google.com/document/d/13tGz4cR4HOOD4ON
 Check this:
 
 *- Mobile and Ubiquitous Systems: Computing, Networking, and Services: 9th International Conference, MOBIQUITOUS 2012, Beijing, China, December 12-14, 2012. Revised Selected Papers.*
+*- https://msdn.microsoft.com/es-es/library/hs600312(v=vs.110).aspx*
