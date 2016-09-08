@@ -1,8 +1,17 @@
 ---
 layout: post
-title:  "Codigo de redundancia ciclica (CRC)"
+title:  "Comprobación de redundancia ciclica (CRC)"
 date:   2016-09-07 22:19:13
 categories: Programacion
 ---
 
-Una técnica detección de errores utilizada ampliamente en las redes de computadoras de hoy día esta basada en los códigos de comprobación de redundancia cíclica (CRC\ Cyclic Redundancy Check). Los códigos CRC también se conocen con el nombre de códigos poli- nómicos, dado que se puede ver la cadena de bits que hay que enviar como si fuera un polinomio cuyos coeficientes son los valores 0 y 1 de la cadena de bits, interpretándose las operaciones realizadas con la cadena de bits según la aritmética de polinomios. 
+La Comprobación de redundancia ciclica (CRC), es una técnica de detección de errores usada frecuentemente en redes digitales y en dispositivos de almacenamiento para detectar cambios accidentales en los datos. Los bloques de datos ingresados en estos sistemas contiene un valor de verificación adjunto, basado en el residuo de una división de polinomios, por eso también se conoce con el nombre de **códigos polinómicos**.
+
+Los códigos CRC funcionan esta forma:
+Consideremos una secuencia de datos de **n** bits que llamaremos **D** 
+
+Asi por ejemplo:
+
+{% highlight ruby linenos %}
+D= 111100101
+{% endhighlight %}
