@@ -34,7 +34,7 @@ gr_polinomio = 5 // Este es el grado del polinomio del generador
 
 ## Procedimiento para calcular CRC
 
-**1-** Tomamos la secuencia de datos **D** y le agregamos tantos 'ceros' nos diga el grado del polinomio, esto equivale al tamaño de nuestro **CRC** y que remplazaremos posteriormente para que sea enviado al receptor. Para nuestro ejemplo el grado del polinomio generador es 5 por lo tanto tendremos lo siguiente que denotaremos como **D'** =  D + 00000, entonces:
+**1-** Tomamos la secuencia de datos **D** y le agregamos tantos 'ceros' nos diga el grado del polinomio, esto equivale al tamaño de nuestro **CRC** y que reemplazaremos posteriormente para que sea enviado al receptor. Para nuestro ejemplo el grado del polinomio generador es 5 por lo tanto tendremos lo siguiente que denotaremos como **D'** =  D + 00000, entonces:
 
 {% highlight ruby  %}
 
