@@ -53,7 +53,7 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
 {% highlight ruby  %}
 
 11110010100000     | 101101 
-101101||||||||      11011001    // Cociente
+101101||||||||      11011001    /* Cociente */
 ------||||||||
 0100011|||||||
  101101|||||||
@@ -67,5 +67,5 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
     000101000|
        101101|
        ------|
-       0001010       // Residuo o resto
+       0001010       /* Residuo o resto */
 {% endhighlight %}
