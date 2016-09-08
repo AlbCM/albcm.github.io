@@ -53,7 +53,7 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
 {% highlight ruby  %}
 
 11110010100000     | 101101 
-101101||||||||      11011001    /* Cociente */
+101101||||||||      11011001    
 ------||||||||
 0100011|||||||
  101101|||||||
@@ -67,5 +67,14 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
     000101000|
        101101|
        ------|
-       0001010       /* Residuo o resto */
+       0001010       
+       
 {% endhighlight %}
+
+El resto o residuo de nuestra operación es *00**01010*** tomaremos los 5 ultimos bits de la operación ya que **5** es el grado de nuestro polinomio generador y este sera nuestro **CRC* asi para nuestro ejercicio:
+
+{% highlight ruby  %}
+CRC = 01010    
+{% endhighlight %}
+
+
