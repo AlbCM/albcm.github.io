@@ -15,6 +15,8 @@ Para un determinada secuencia de datos, **D**, el emisor seleccionará r bits ad
 
 Tal ves parezca un poco confuso pero trataremos de ilustrar mejor el metodo con un ejemplo, Asi:
 
+*Nos piden que Consideremos una secuencia de datos  **D = 111100101**, que un nodo Emisor desea enviar al nodo Receptor y cuyo  Generador es **G = 10101**. Calcule el CRC y compruebe en el lado del receptor la secuencia de datos completa* 
+
 {% highlight ruby  %}
 D = 111100101
 G =  1      0      1      1      0      1
@@ -71,7 +73,7 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
        
 {% endhighlight %}
 
-El resto o residuo de nuestra operación es *00**01010*** tomaremos los 5 ultimos bits de la operación ya que **5** es el grado de nuestro polinomio generador y este sera nuestro **CRC* asi para nuestro ejercicio:
+El resto o residuo de nuestra operación es *00**01010*** y este es el dato que nos interesa tomaremos los 5 ultimos bits de la operación ya que **5** es el grado de nuestro polinomio generador y este sera nuestro **CRC** asi para nuestro ejercicio:
 
 {% highlight ruby  %}
 CRC = 01010    
