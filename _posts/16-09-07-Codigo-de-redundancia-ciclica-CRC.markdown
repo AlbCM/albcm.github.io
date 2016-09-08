@@ -50,8 +50,7 @@ D' = 111100101   00000
 XOR   ----     XOR   ----
       1110           0100
 
-{% endhighlight %}
-.
+{% endhighlight %}<br>
 
 Regresando a nuestro ejemplo lo que haremos es una division usando la operacion *OR-Exclusiva* de nuestro **D'** con **G** para obtener el **CRC** asi: 
 
@@ -75,7 +74,7 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
        ------|
        0001010       
        
-{% endhighlight %}.
+{% endhighlight %}<br>
 
 El resto o residuo de nuestra operación es *00**01010*** y este es el dato que nos interesa tomaremos los 5 ultimos bits de la operación ya que **5** es el grado de nuestro polinomio generador y este sera nuestro **CRC** asi para nuestro ejercicio:
 
@@ -86,7 +85,7 @@ CRC = 01010
 **3-** Con nuestro CRC calculado entonces enviaremos el mensaje **M** resultante a nuestro *Receptor* de esta forma **D**+**CRC** asi:
 {% highlight ruby  %}
 M = D + CRC = 111100101 01010
-{% endhighlight %}.
+{% endhighlight %}<br>
 
 **4-** Como nuestro *Receptor* había negociado el patron conocido como *Generador* y lo tiene a disposición  debe realizar la división OR-Exclusiva de **M** y **G** y si es exactamente divisible por **G** ( Es decir no tiene ningún resto) entonces el *Receptor* aceptará los datos como correctos; en caso contrario ( el resto es ditinto de cero) el *Receptor* sabrá que se ha producido un error. Para nuestro ejemplo entonces:
 
@@ -110,7 +109,7 @@ RECEPTOR
        ------|
        0000000
  
-{% endhighlight %}.
+{% endhighlight %}<br>
 
 **5-** Finalmente el resto o residuo de nuestra operación es **0000000** esto quiere decir que **M** Es exactamente divisible por **G** Entonces el *Receptor* puede concluir que los datos no contienen ningún error y concluye la comprobación de redundancia cíclica.
 
