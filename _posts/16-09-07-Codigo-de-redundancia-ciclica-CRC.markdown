@@ -41,6 +41,7 @@ gr_polinomio = 5 // Este es el grado del polinomio del generador
 D' = 111100101   00000
 
 {% endhighlight %}
+.
 
 **2-** Hacemos los cálculos de los códigos CRC, que se realizan en aritmética módulo 2, es decir sin ningun tipo de acarreo ni en las sumas ni en las restas. Esto quiere decir que la suma y la resta son idénticas, y que ambas son equivalentes a la operación OR-exclusiva (XOR) bit a bit de los operandos, por ejemplo:
 
