@@ -13,7 +13,7 @@ Consideremos una secuencia de datos de **n** bits que llamaremos **D**, que el n
 
 Para un determinada secuencia de datos, **D**, el emisor seleccionará r bits adicionales, **R**, y se los añadirá a **D**, de modo que el patrón de **d + rbits resultante (interpretado como un número binario)** sea exactamente divisible por **G** (es decir, no tenga ningún resto) utilizando aritmética módulo 2. El proceso de comprobación de errores con los códigos CRC es, por tanto, muy simple: el receptor divide los **d + rbits** recibidos entre **G**. Si el resto es distinto de cero, el receptor sabrá que se ha producido error; en caso contrario, se aceptarán los datos como correctos.
 
-#Ejemplo 1
+#Ejemplo 
 Tal vez parezca un poco confuso pero trataremos de ilustrar mejor el metodo con un ejemplo, Asi:
 
 *Nos piden que Consideremos una secuencia de datos  **D = 111100101**, que un nodo Emisor desea enviar al nodo Receptor y cuyo  Generador es **G = 10101**. Calcule el CRC y compruebe en el lado del receptor la secuencia de datos completa* 
@@ -31,7 +31,7 @@ gr_polinomio = 5 // Este es el grado del polinomio del generador
 
 {% endhighlight %}
 
-#Procedimiento para calcular CRC
+##Procedimiento para calcular CRC
 
 1- Tomamos la secuncia de datos **D** y le agregamos tantos 'ceros' nos diga el grado del polinomio, esto equivale al tamaño de nuestro **CRC** y que remplazaremos posteriormente para que sea enviado al receptor. Para nuestro ejemplo el grado del polinomio generador es 5 por lo tanto tendremos lo siguiente que denotaremos como **D'** =  D + 00000, entonces:
 
