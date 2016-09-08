@@ -12,6 +12,6 @@ Consideremos una secuencia de datos de **n** bits que llamaremos **D**
 
 Asi por ejemplo:
 
-{% highlight ruby linenos %}
+{% highlight ruby  %}
 D= 111100101
 {% endhighlight %}
