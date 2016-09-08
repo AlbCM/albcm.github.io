@@ -80,4 +80,13 @@ El resto o residuo de nuestra operación es *00**01010*** y este es el dato que 
 CRC = 01010    
 {% endhighlight %}
 
+3. Con nuestro CRC calculado entonces enviariamos el mensaje **M** resultante a nuestro *Receptor* de esta forma **D**+**CRC** asi:
+{% highlight ruby  %}
+M = D + CRC = 111100101 01010
+{% endhighlight %}
 
+4. Como nuetro *Receptor* habia negociado el patron conocido como *Generador* es decir tiene a disposición  debe realizar la división OR-Exclusiva de **M** y **G** y si es exactamente divisible por **G** ( Es decir no tiene ningún resto) entonces el *Receptor* aceptará los datos como correctos; en coso contrario( el resto es ditinto de cero) el *Receptor sabrá que se ha producido un error y se concluye la comprobación. Para nuestro ejemplo entonces:
+
+{% highlight ruby  %}
+M = D + CRC = 111100101 01010
+{% endhighlight %}
