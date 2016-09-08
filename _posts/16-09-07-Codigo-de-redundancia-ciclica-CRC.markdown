@@ -13,9 +13,9 @@ Consideremos una secuencia de datos de **n** bits que llamaremos **D**, que el n
 Asi por ejemplo:
 
 {% highlight text %}
-D= 111100101
-G=  1      0      1      1      0      1
-    x^5         +x^3  + x^2         + x^0     
+**D**= 111100101
+**G**=  1      0      1      1      0      1
+   x^5           x^3    x^2           x^0     
 
 // Entonces podemos escribir como polinomio asi: x^5 +x^3 + x^2 + x^0
 // PD: Vease que no se tiene en cuenta los bits en 0 ya que al evaluar será 0
