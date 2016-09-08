@@ -56,7 +56,7 @@ Regresando a nuestro ejemplo lo que haremos es una division usando la operacion 
 {% highlight ruby  %}
 
 11110010100000     | 101101 
-101101||||||||      11011001    
+101101||||||||      110110010    
 ------||||||||
 0100011|||||||
  101101|||||||
@@ -85,8 +85,26 @@ CRC = 01010
 M = D + CRC = 111100101 01010
 {% endhighlight %}
 
-4. Como nuetro *Receptor* habia negociado el patron conocido como *Generador* es decir tiene a disposición  debe realizar la división OR-Exclusiva de **M** y **G** y si es exactamente divisible por **G** ( Es decir no tiene ningún resto) entonces el *Receptor* aceptará los datos como correctos; en coso contrario( el resto es ditinto de cero) el *Receptor sabrá que se ha producido un error y se concluye la comprobación. Para nuestro ejemplo entonces:
+4. Como nuetro *Receptor* habia negociado el patron conocido como *Generador* es decir tiene a disposición  debe realizar la división OR-Exclusiva de **M** y **G** y si es exactamente divisible por **G** ( Es decir no tiene ningún resto) entonces el *Receptor* aceptará los datos como correctos; en coso contrario( el resto es ditinto de cero) el *Receptor* sabrá que se ha producido un error y se concluye la comprobación. Para nuestro ejemplo entonces:
 
 {% highlight ruby  %}
-M = D + CRC = 111100101 01010
+11110010101010     | 101101 
+101101||||||||       110110010
+------||||||||
+0100011|||||||
+ 101101|||||||
+ ------|||||||
+ 00111001|||||
+   101101|||||
+   ------|||||
+   0101000||||
+    101101||||
+    ------||||
+    000101101|
+       101101|
+       ------|
+       0000000
+ 
 {% endhighlight %}
+
+
