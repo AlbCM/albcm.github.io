@@ -107,4 +107,5 @@ M = D + CRC = 111100101 01010
  
 {% endhighlight %}
 
+5. El resto o residuo de nuestra operación es **0000000** esto quiere decir que **M** Es exactamente divisible por **G** Entonces el *Receptor* puede concluir que los datos no contienen ningun error y concluye la comprobación.
 
