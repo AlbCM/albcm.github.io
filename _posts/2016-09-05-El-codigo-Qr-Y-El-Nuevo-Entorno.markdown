@@ -16,7 +16,7 @@ Hoy hablaré acerca de los Códigos QR, estos son módulos para almacenar inform
 </p>
 
 
-Dentro de las funciones comunes de un Código QR tenemos:
+# Funciones cómunes
 
 - Abrir la URL de una página Web o perfil social.
 - Leer un Texto.
@@ -27,12 +27,14 @@ Dentro de las funciones comunes de un Código QR tenemos:
 - Ubicar un posición geográfica en un Google maps.
 
 
-Los códigos QR juegan un rol relevante en la aplicación de la computación ubicua por varias razones entre ellas tenemos:
+# Rol en la computación ubicua: 
   
 - Permite una profunda integración entre el mundo físico y el virtual sin necesidad de una avanzada infraestructura.
 - Permite versatilidad ya que estos códigos pueden ser impresos, mostrados en pantallas y leídos desde grandes distancias.
 - La mayoría podemos tener un lector QR ( smartphones y cámaras genéricas ).
 - Ofrece una rápida respuesta.
+
+# Implementación
 
 Existe un repositorio en mi [github](https://github.com/AlbCM) llamado [Qr-CamReader-and-WebBrowser](https://github.com/AlbCM/QR-CamReader-and-WebBrowser) en donde puedes encontrar una implentación Windows Forms desarrollada en C#, capaz de leer codigos QR a traves de una camara generica , la lectura obtenida del QrCode es redirigida a un elemento WebBrowser en caso que corresponda a una URL.
 
