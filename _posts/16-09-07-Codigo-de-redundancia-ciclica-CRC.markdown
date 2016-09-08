@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Comprobación de redundancia ciclica (CRC)"
+title:  "Comprobación de redundancia cíclica. (CRC)"
 date:   2016-09-07 22:19:13
 categories: Programacion
 ---
 
-La Comprobación de redundancia ciclica (CRC), es una técnica de detección de errores usada frecuentemente en redes digitales y en dispositivos de almacenamiento para detectar cambios accidentales en los datos. Los bloques de datos ingresados en estos sistemas contiene un valor de verificación adjunto, basado en el residuo de una división de polinomios, por eso también se conoce con el nombre de **códigos polinómicos**.
+La Comprobación de redundancia cíclica(CRC), es una técnica de detección de errores usada frecuentemente en redes digitales y en dispositivos de almacenamiento para detectar cambios accidentales en los datos. Los bloques de datos ingresados en estos sistemas contiene un valor de verificación adjunto, basado en el residuo de una división de polinomios, por eso también se conoce con el nombre de **códigos polinómicos**.
 
 # ¿Como funciona?
 
@@ -34,7 +34,7 @@ gr_polinomio = 5 // Este es el grado del polinomio del generador
 
 ## Procedimiento para calcular CRC
 
-**1-** Tomamos la secuncia de datos **D** y le agregamos tantos 'ceros' nos diga el grado del polinomio, esto equivale al tamaño de nuestro **CRC** y que remplazaremos posteriormente para que sea enviado al receptor. Para nuestro ejemplo el grado del polinomio generador es 5 por lo tanto tendremos lo siguiente que denotaremos como **D'** =  D + 00000, entonces:
+**1-** Tomamos la secuencia de datos **D** y le agregamos tantos 'ceros' nos diga el grado del polinomio, esto equivale al tamaño de nuestro **CRC** y que remplazaremos posteriormente para que sea enviado al receptor. Para nuestro ejemplo el grado del polinomio generador es 5 por lo tanto tendremos lo siguiente que denotaremos como **D'** =  D + 00000, entonces:
 
 {% highlight ruby  %}
 
@@ -82,12 +82,12 @@ El resto o residuo de nuestra operación es *00**01010*** y este es el dato que 
 CRC = 01010    
 {% endhighlight %}
 
-**3-** Con nuestro CRC calculado entonces enviariamos el mensaje **M** resultante a nuestro *Receptor* de esta forma **D**+**CRC** asi:
+**3-** Con nuestro CRC calculado entonces enviaremos el mensaje **M** resultante a nuestro *Receptor* de esta forma **D**+**CRC** asi:
 {% highlight ruby  %}
 M = D + CRC = 111100101 01010
 {% endhighlight %}
 
-**4-** Como nuetro *Receptor* habia negociado el patron conocido como *Generador* y lo tiene a disposición  debe realizar la división OR-Exclusiva de **M** y **G** y si es exactamente divisible por **G** ( Es decir no tiene ningún resto) entonces el *Receptor* aceptará los datos como correctos; en caso contrario ( el resto es ditinto de cero) el *Receptor* sabrá que se ha producido un error. Para nuestro ejemplo entonces:
+**4-** Como nuestro *Receptor* había negociado el patron conocido como *Generador* y lo tiene a disposición  debe realizar la división OR-Exclusiva de **M** y **G** y si es exactamente divisible por **G** ( Es decir no tiene ningún resto) entonces el *Receptor* aceptará los datos como correctos; en caso contrario ( el resto es ditinto de cero) el *Receptor* sabrá que se ha producido un error. Para nuestro ejemplo entonces:
 
 {% highlight ruby  %}
 RECEPTOR
@@ -111,5 +111,7 @@ RECEPTOR
  
 {% endhighlight %}
 
-**5-** Finalmente el resto o residuo de nuestra operación es **0000000** esto quiere decir que **M** Es exactamente divisible por **G** Entonces el *Receptor* puede concluir que los datos no contienen ningun error y concluye la comprobación de redundancia ciclica.
+**5-** Finalmente el resto o residuo de nuestra operación es **0000000** esto quiere decir que **M** Es exactamente divisible por **G** Entonces el *Receptor* puede concluir que los datos no contienen ningún error y concluye la comprobación de redundancia cíclica.
 
+# Implementación CRC en Python
+Para fines académicos, realizaremos una simulación del funcionamiento de crc en el lenguaje python, para ello utilizaremos los módulos **socket** y **binascii** 
