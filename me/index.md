@@ -4,9 +4,10 @@ layout: about
 
 Hola, mi nombre es Albeiro Cuadrado Machado, estudiante de Ingenieria de Sistemas de la Universidad de Cordoba-Colombia
 
-
-# Que has hecho?
+# Proyectos:
 Puedes revisar mi [Github](https://github.com/albcm).
 
-# En que lenguajes de programación tienes experiencia?
-Principalmente C#, Python, C++, Octave, Bash, Arduino, entre otros..
+# En que tienes experiencia?
+Ordenado por horas invertidas, estos son los lenguajes de programación en los que tengo experiencia C#, Python, C++, Octave, Arduino, Pascal, M, R, entre otros..
+
+Experiencia con interpretes de comandos como  Bourne Again Shell, cmd, Tcsh y MSH Windows PowerShell

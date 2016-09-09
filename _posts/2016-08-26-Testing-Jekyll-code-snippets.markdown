@@ -5,7 +5,7 @@ date:   2016-08-26 19:40:13
 categories: jekyll update
 ---
 
-{% highlight ruby linenos %}
+{% highlight ruby %}
 def print_hi(name)
   puts "Hi, #{name}"
 end

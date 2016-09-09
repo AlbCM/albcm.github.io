@@ -205,7 +205,8 @@ ul {
 			border-radius: 3px;
 			background: none;
 		}
-        
+        .highlight .lineno { color: #ccc; display:inline-block; padding: 0 5px; border-right:1px solid #ccc; }
+	.highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
         .highlight  { background: $color-grey; }
         .highlight .c { color: #999988; font-style: italic } /* Comment */
         .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
