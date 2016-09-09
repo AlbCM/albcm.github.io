@@ -227,10 +227,12 @@ def crc(message, generator, crc_code='0000'): #Función crc
 ## Ejecución
 
 **Cliente (client.py)**
-
+![Cliente](/assets/img/clientpy.png)
 
 **Servidor (server.py)**
+![Servidor](/assets/img/serverpy.png)
 
 # Check this:
 Autores: *Albeiro Cuadrado* y *Sebastián Arteaga*.
+
 El codigo de la implementación puede ser encontrado [Aqui](https://github.com/Sarteagadiaz/crcpy)
