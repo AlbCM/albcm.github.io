@@ -191,29 +191,6 @@ server.close()
 {% endhighlight %}<br>
 
 
-{% highlight python  %}
-import socket
-from utilities import crc # Importamos la función crc 
-
-sock = socket.socket() # Creamos el socket
-sock.connect(('127.0.0.1',9999)) # Conectamos el socket con el servidor
-
-generator = input('Type a generator: ') # Pedimos un generador
-sock.send(generator.encode()) # Enviamos el generador.
-
-data = input('Type data to transmit: ') # Pedimos data a transmitir
-crc_code = crc(data,generator) # Calculamos el CRC
-
-request = data + ' ' + crc_code   # Se entrama data con el CRC
-sock.send(request.encode()) # Enviamos la trama 
-
-response = sock.recv(1024) # Se espera por la respuesta
-print(response.decode()) # Mostramos la respuesta
-sock.close() # Cerramos la conexión.
-
- 
-{% endhighlight %}<br>
-
 **Utilities.py**
 
 {% highlight python  %}
