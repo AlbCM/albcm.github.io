@@ -114,6 +114,8 @@ RECEPTOR
 **5-** Finalmente el resto o residuo de nuestra operación es **0000000** esto quiere decir que **M** Es exactamente divisible por **G** Entonces el *Receptor* puede concluir que los datos no contienen ningún error y concluye la comprobación de redundancia cíclica.
 
 # Implementación CRC en Python
+
+
 La comprobación de redundancia cíclica se realiza en el hardware de las tarjetas de red entre dos nodos.   
 
 Con el fin de entender el funcionamiento de dicha técnica realizaremos una analogía de esta pero en la capa de aplicación. De tal forma que cada nodo estará representado por un proceso, y el enlace estará representado por un socket de la capa de transporte.
@@ -228,3 +230,7 @@ def crc(message, generator, crc_code='0000'): #Función crc
 
 
 **Servidor (server.py)**
+
+# Check this:
+Autores: *Albeiro Cuadrado* y *Sebastián Arteaga*.
+El codigo de la implementación puede ser encontrado [Aqui](https://github.com/Sarteagadiaz/crcpy)
