@@ -114,4 +114,140 @@ RECEPTOR
 **5-** Finalmente el resto o residuo de nuestra operación es **0000000** esto quiere decir que **M** Es exactamente divisible por **G** Entonces el *Receptor* puede concluir que los datos no contienen ningún error y concluye la comprobación de redundancia cíclica.
 
 # Implementación CRC en Python
-Para fines académicos, realizaremos una simulación del funcionamiento de crc en el lenguaje python, para ello utilizaremos los módulos **socket** y **binascii** 
+La comprobación de redundancia cíclica se realiza en el hardware de las tarjetas de red entre dos nodos.   
+
+Con el fin de entender el funcionamiento de dicha técnica realizaremos una analogía de esta pero en la capa de aplicación. De tal forma que cada nodo estará representado por un proceso, y el enlace estará representado por un socket de la capa de transporte.
+
+Utilizaremos el lenguaje Python por su sintaxis sencilla y cómoda para esta demostración, además es fácil el manejo de sockets.
+
+**Cliente (client.py):**
+
+{% highlight python  %}
+import socket
+from utilities import crc # Importamos la función crc 
+
+sock = socket.socket() # Creamos el socket
+sock.connect(('127.0.0.1',9999)) # Conectamos el socket con el servidor
+
+generator = input('Type a generator: ') # Pedimos un generador
+sock.send(generator.encode()) # Enviamos el generador.
+
+data = input('Type data to transmit: ') # Pedimos data a transmitir
+crc_code = crc(data,generator) # Calculamos el CRC
+
+request = data + ' ' + crc_code   # Se entrama data con el CRC
+sock.send(request.encode()) # Enviamos la trama 
+
+response = sock.recv(1024) # Se espera por la respuesta
+print(response.decode()) # Mostramos la respuesta
+sock.close() # Cerramos la conexión.
+
+ 
+{% endhighlight %}<br>
+
+**Servidor (server.py):**
+
+{% highlight python  %}
+import socket
+from utilities import crc #Importamos la función crc
+
+server = socket.socket() # Creamos el socket 
+server.bind(('127.0.0.1',9999)) # Asignamos el puerto al socket
+server.listen(1) # Empezamos a escuchar por el puerto indicado
+
+client, client_addr = server.accept() # Cuando se conecte un cliente
+print('Device connected: ', client_addr) # Mostrar dirección
+
+# Negociación del generador
+generator = client.recv(1024).decode()
+print("Generator:" ,generator)
+
+# Esperar por una trama
+data = client.recv(1024).decode()
+print('Frame received: ' , data) # Mostrar trama
+
+#Separar la trama en data y código CRC
+data , crc_code = data.split(' ') 
+
+# Realizar la comprobación
+result = crc(data, generator, crc_code)
+print ('Checksum result: ' ,result)
+
+# Parsear la comprobación a un entero y validar resultado
+result = int(result)
+if result != 0:  
+	response = 'err'
+else:
+	response = 'ok'
+
+#Enviar respuesta al cliente.
+client.send(response.encode())
+#Cerrar la conexión con el cliente.
+client.close()
+
+#Cerrar el socket.
+server.close()
+ 
+{% endhighlight %}<br>
+
+
+{% highlight python  %}
+import socket
+from utilities import crc # Importamos la función crc 
+
+sock = socket.socket() # Creamos el socket
+sock.connect(('127.0.0.1',9999)) # Conectamos el socket con el servidor
+
+generator = input('Type a generator: ') # Pedimos un generador
+sock.send(generator.encode()) # Enviamos el generador.
+
+data = input('Type data to transmit: ') # Pedimos data a transmitir
+crc_code = crc(data,generator) # Calculamos el CRC
+
+request = data + ' ' + crc_code   # Se entrama data con el CRC
+sock.send(request.encode()) # Enviamos la trama 
+
+response = sock.recv(1024) # Se espera por la respuesta
+print(response.decode()) # Mostramos la respuesta
+sock.close() # Cerramos la conexión.
+
+ 
+{% endhighlight %}<br>
+
+**Utilities.py**
+
+{% highlight python  %}
+
+def crc(message, generator, crc_code='0000'): #Función crc
+
+	if int(crc_code) == 0 : # Si se quiere calcular por 1era vez
+      # Se agregan tantos ceros (0) indique el grado del polinomio
+		crc_code = ''
+		for i in range(len(generator) -1):
+			crc_code = crc_code + '0'
+
+      # Se agrega el crc al mensaje(data).
+	message = message + crc_code
+
+      # Se convierte tanto el mensaje(data) como el generador a listas 
+	message = list(message)
+	generator = list(generator)
+
+	# Para i divisiones
+	for i in range(len(message) - len(crc_code)):
+		if message[i] == '1': # si el bit es un uno (1)
+                 # Para cada bit del generador
+			for j in range(len(generator)):
+      #Dividir cada bit del generador con el del msg y traer el sgte. 
+				message[i+j] = str((int(message[i+j])+int(generator[j]))%2)       
+      # devolver n bits como se hayan agregado
+	return ''.join(message[-len(crc_code):]) 
+{% endhighlight %}<br>
+
+
+## Ejecución
+
+**Cliente (client.py)**
+
+
+**Servidor (server.py)**
