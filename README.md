@@ -10,10 +10,11 @@ All this stuff is under the -MIT License-
 ### Future features (:
 - [ ] Topics System
 - [ ] Multilanguage posts
+- [x] Blog on apache2 with common port
 
 ### Upcoming blogs:
-- [ ] Qr Reader and browser for dummies
+- [x] Qr Reader and browser 
 - [ ] Sumobot
-- [ ] CRC
+- [x] CRC
 - [ ] Boxing Routine
-
+- [ ] Proxy Reverse Apache2
