@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Comprobación de redundancia cíclica. (CRC)"
+title:  "Comprobación de redundancia cíclica (CRC)"
 date:   2016-09-07 22:19:13
 categories: Programacion
 ---
