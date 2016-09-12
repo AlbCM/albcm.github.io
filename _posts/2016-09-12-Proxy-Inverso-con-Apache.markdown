@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Proxy inverso con Apache"
+title:  "Proxy inverso (Reverse Proxy) sobre Apache"
 date:   2016-09-12 22:19:13
 categories: Programacion
 ---
