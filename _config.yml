@@ -26,3 +26,6 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
+host: albcm.ml
+port: 8081
+
