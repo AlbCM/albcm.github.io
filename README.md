@@ -11,6 +11,8 @@ All this stuff is under the -MIT License-
 - [ ] Topics System
 - [ ] Multilanguage posts
 - [x] Blog on apache2 with common port
+- [x] Git deploy on Apache2 
+- [ ] Analitycs
 
 ### Upcoming blogs:
 - [x] Qr Reader and browser 
@@ -18,3 +20,5 @@ All this stuff is under the -MIT License-
 - [x] CRC
 - [ ] Boxing Routine
 - [ ] Proxy Reverse Apache2
+- [ ] Git deploy local
+- [ ] Git deploy remote
