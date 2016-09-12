@@ -1,6 +1,10 @@
 ---
 layout: post
+<<<<<<< HEAD
 title:  "Comprobación de redundancia cíclica (CRC)"
+=======
+title:  "Comprobación de redundancia cíclica .(CRC)."
+>>>>>>> 5a0656591adf9787bf459ffe11cd082312736413
 date:   2016-09-07 22:19:13
 categories: Programacion
 ---

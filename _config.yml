@@ -26,3 +26,9 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 
+<<<<<<< HEAD
+=======
+host: 158.69.158.180
+port: 8081
+
+>>>>>>> 5a0656591adf9787bf459ffe11cd082312736413
