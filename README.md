@@ -10,6 +10,7 @@ All this stuff is under the -MIT License-
 ### Future features (:
 - [ ] Topics System
 - [ ] Multilanguage posts
+- [ ] Search Posts
 - [x] Blog on apache2 with common port
 - [x] Git deploy on Apache2 
 - [ ] Analitycs
@@ -19,6 +20,6 @@ All this stuff is under the -MIT License-
 - [ ] Sumobot
 - [x] CRC
 - [ ] Boxing Routine
-- [ ] Proxy Reverse Apache2
+- [x] Proxy Reverse Apache2
 - [ ] Git deploy local
 - [ ] Git deploy remote
