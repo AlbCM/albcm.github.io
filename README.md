@@ -12,6 +12,7 @@ All this stuff is under the -MIT License-
 - [ ] Multilanguage posts
 - [x] Blog on apache2 with common port
 - [x] Git deploy on Apache2 
+- [ ] Analitycs
 
 ### Upcoming blogs:
 - [x] Qr Reader and browser 
