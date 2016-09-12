@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+
+<style>
+	body{
+    border-top-style:solid;
+    border-top-width:1em;
+    border-top-color:black;
+    
+}
+</style>
+<body>
+<div class="post">
+	<div class="post__back">
+    	<a href="/">&lt;-- Inicio</a>
+    </div>
+    <div class="post__title">
+    	<h1>{{ page.title }}</h1>
+    </div>
+    <div class="post__date">
+    	<p>{{ page.date | date: '%B %-d, %Y' }}</p>
+    </div>
+    <div class="post__meta">
+    	<p>{{ tags_content }}</p>
+    </div>
+    <div class="post__content"?>
+        {{ content }}
+    </div>
+    
+    
+    
+    <div id="disqus_thread"></div>
+	<script>
+
+	(function() { // DON'T EDIT BELOW THIS LINE
+	    var d = document, s = d.createElement('script');
+	    s.src = '//albcm-github-io.disqus.com/embed.js';
+	    s.setAttribute('data-timestamp', +new Date());
+	    (d.head || d.body).appendChild(s);
+	})();
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                                    
+	</div>
+</div>
+</body>
