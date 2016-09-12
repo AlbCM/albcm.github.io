@@ -5,7 +5,7 @@ date:   2016-09-07 22:19:13
 categories: Programacion
 ---
 
-# Reverse Proxy
+## Reverse Proxy
 
 Un proxy es un servicio que actúa como intermediario entre una comunicacón Cliente-Servidor, mientras que un proxy normal o **Forward Proxy** mantiene a un cliente en "anonimato" debido a que es el proxy quien se conecta con el servidor, un Proxy inverso **(Reverse Proxy)** mantiene al servidor "oculto" para con sus clientes.
 
@@ -14,9 +14,8 @@ Los usos de un Proxy inverso son muchos por ejemplo, este blog esta alojado tamb
 # Configurar Reverse Proxy en Apache:
 
 1. Instalamos algunos paquetes:
-
-{% highlight CoffeeScript  %}
+{% highlight AppleScript %}
 apt-get-install libapache2-mod-proxy-html
-{% endhighlight %}<br>
-
+{% endhighlight %}
 2.
+3.
