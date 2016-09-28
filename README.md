@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/AlbCM/albcm.github.io.png?label=ready&title=Ready)](https://waffle.io/AlbCM/albcm.github.io)
 # albcm.github.io
 
 My blog made with [jekyll](http://jekyllrb.com)  Hosted with Github Pages.
