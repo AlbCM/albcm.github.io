@@ -57,7 +57,7 @@ $ sudo service apache2 restart
 
 Con esto deberiamos poder acceder a **http://tupagina.com** como si la tuvieramos por defecto en el puerto 80.
 
-## Nota 11/10/2016:
+# Nota 11/10/2016:
 Este es uno de los muchos usos que le podemos dar a un Reverse Proxy, para lo descrito arriba, si el blog esta alojado by GithubPages y tenemos un dominio propio, unicamente lo que tendremos que hacer es contactar a nuestro provedoor DNS y configurar un "A records" apuntando a la dirección que nos proporciona github pages. 
 
 Luego simplemente tendremos que irnos a la configuración de nuestro repositorio y en la casilla "Custom domain" colocar nuestro dominio propio, este proceso puede que tarde hasta un día para actualizarse.
