@@ -8,7 +8,7 @@ Ordenado por horas invertidas, estos son los lenguajes de programación en los q
 
 En mi tiempo libre me gusta ver peliculas mis generos favoritos son Sci-Fi y psicologicas, dentro de mis favoritas estan: *Mr NoBody*, *Triangle*, *Looper*, la saga *Back to the future* , *Memento*, *Fight Club* continua...  de igual forma me gustan mucho las series, en estas no soy tan exigente con el genero, actualmente estoy viendo aproximadamente 10 que aún estan en trasmisión puedo destacar de ellas *Mr. Robot* y *Shameless (US)*. 
 
-Soy un apasionado por la fílosofia en general  dentro de mis vertienes favoritas estan las relacionadas con Baruch Spinoza, Tomás Moro, Guillermo de Ockham, Diógenes de Sinope entre otros..
+Soy un apasionado por la fílosofia en general  dentro de mis vertientes favoritas estan las relacionadas con Baruch Spinoza, Tomás Moro, Guillermo de Ockham, Diógenes de Sinope entre otros..
 
 Lo demás se sigue escribiendo con el pasar del tiempo...
 
