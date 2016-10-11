@@ -7,7 +7,8 @@ categories: Programacion
 
 Un proxy es un servicio que actúa como intermediario entre una comunicacón Cliente-Servidor, mientras que un proxy normal o **Forward Proxy** mantiene a un cliente en "anonimato" debido a que es el proxy quien se conecta con el servidor, un Proxy inverso **(Reverse Proxy)** mantiene al servidor "oculto" para con sus clientes.
 
-Los usos de un Proxy inverso son muchos por ejemplo, este blog aparte de estar en GitHub Pages esta alojado tambien en un VPS y como esta hecho sobre *Jekyll* este debe correr en una dirección y un puerto, por ejemplo **http://albcm.ml:8090** pero queremos acceder a la pagina mediante [http://albcm.ml](http://albcm.ml)  sin especificar el puerto, generalmente nosotros no tenemos que escribir el puerto de una dirección porque el navegador nos facilita este trabajo ya que al acceder a esta por defecto lo hace al puerto 80, entonces algunos preguntarán *"¿ Por qué no correr Jekyll en el puerto 80 ?"* y la respuesta es *"No se puede porque tenemos un servidor Web Apache corriento en este puerto"* entonces aqui es donde viene la magia del Proxy inverso y lo que hace es que todas las peticiones que lleguen a **http://albcm.ml**  las reenvia a **http://albcm.ml:8090** sin que el usuario vea el cambio.
+Los usos de un Proxy inverso son muchos por ejemplo, si este blog estuviera en GitHub Pages y alojado tambien en un VPS, al estar hecho sobre *Jekyll* este debe correr en una dirección y un puerto, por ejemplo **http://albcm.ml:8090** pero obviamente querriamos acceder a la pagina sin especificar el puerto, generalmente nosotros no tenemos que escribir el puerto de una dirección porque el navegador nos facilita este trabajo ya que al acceder a esta por defecto lo hace al puerto 80, entonces algunos preguntarán *"¿ Por qué no correr Jekyll en el puerto 80 ?"* y la respuesta es *"No, porque podriamos tener un servidor Web Apache corriento en este puerto"* entonces aqui es donde viene la magia del Proxy inverso y lo que hace es que todas las peticiones que lleguen a **http://albcm.ml**  las reenvia a **http://albcm.ml:8090** sin que el usuario vea el cambio.
+
 # Configurar Reverse Proxy en Apache:
 
 **1-** Instalamos algunos paquetes:
@@ -55,3 +56,13 @@ $ sudo service apache2 restart
 {% endhighlight %}<br>
 
 Con esto deberiamos poder acceder a **http://tupagina.com** como si la tuvieramos por defecto en el puerto 80.
+
+## Nota 11/10/2016:
+Este es uno de los muchos usos que le podemos dar a un Reverse Proxy, para lo descrito arriba, si el blog esta alojado by GithubPages y tenemos un dominio propio, unicamente lo que tendremos que hacer es contactar a nuestro provedoor DNS y configurar un "A records" apuntando a la dirección que nos proporciona github pages. 
+
+Luego simplemente tendremos que irnos a la configuración de nuestro repositorio y en la casilla "Custom domain" colocar nuestro dominio propio, este proceso puede que tarde hasta un día para actualizarse.
+
+Aqui dejo la documentación necesaria:
+
+*-[https://help.github.com/articles/quick-start-setting-up-a-custom-domain/](https://help.github.com/articles/quick-start-setting-up-a-custom-domain/)*
+
