@@ -4,9 +4,6 @@ title:  "League of Legends sobre Ubuntu 16.04"
 date:   2016-10-23 19:40:13
 categories: games
 ---
-
-# Configurar Reverse Proxy en Apache:
-
 **1-** Instalamos algunos paquetes:
 {% highlight AppleScript %}
 $ sudo apt-get-install libapache2-mod-proxy-html
