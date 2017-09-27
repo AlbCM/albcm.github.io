@@ -5,8 +5,8 @@ date:   2017-09-27 22:19:13
 categories: Ensayos
 ---
 
-# Título: Procesos e hilos en los sistemas operativos.
-# Autor: Albeiro José Cuadrado Machado
+### Título: Procesos e hilos en los sistemas operativos.
+### Autor: Albeiro José Cuadrado Machado
 
 En el mundo en que vivimos, iniciamos actividades por costumbres o previamente planeadas, finalizamos actividades, las suspendemos, retomamos y en general  esto lo hacemos para satisfacer nuestras necesidades o lograr nuestros objetivos es decir, somos seres dinámicos.
 Por ejemplo al ir de viaje existen varias tareas por debajo para cumplir nuestro objetivo general entre ellas pueden estar, llenar de combustible nuestro auto, comprar víveres, revisar nuestro equipaje etc.
@@ -26,3 +26,6 @@ Existe también el modelo de más de 2 estados en este se agregan los estados Nu
 Como anteriormente mencione los procesos son tratados por los ordenadores a petición del usuario o por causa de otro proceso, para este último los procesos necesitan mecanismos de comunicación que pueden ser Síncrona en este caso el proceso que envía permanece bloqueado esperando la respuesta del receptor, Asíncrona el proceso envía el mensaje y continúa con sus actividades sin bloquearse esperando respuesta del receptor , Persistente en este tipo el receptor no tiene que estar operativo en el momento en el que se envía el mensaje este se almacena por tanto tiempo sea necesario para su entrega, Momentánea el mensaje se descarta si el receptor no está activo al momento que se envía el mensaje, directas en esta las primitivas enviar y recibir explicitan el nombre del proceso con el que se comunica, es decir se especifica cuál va a ser el proceso emisor y cuál va a ser el proceso receptor, indirectas la comunicación está basada en una herramienta o instrumento ya que el emisor y el receptor están a distancia , Simétrica todos los procesos pueden enviar o recibir llamada también bidireccional y Asimetrica un proceso puede enviar y los otros procesos sólo reciben, también llamada comunicación unidireccional.
 
 En conclusión podemos observar que cada proceso que realiza nuestro sistema operativo es semejante a los procesos que se lleva a cabo en la vida cotidiana de un ser humano, cada proceso necesita una serie de recursos que es brindado por el kernel el cual es secuencial para ser atendido, ocupa un espacio de memorias que contiene el programa ejecutable, sus datos, su pila y un conjunto de registros asociados al proceso.
+
+
+
