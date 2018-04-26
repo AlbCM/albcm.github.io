@@ -10,7 +10,6 @@ All this stuff is under the -MIT License-
 
 ### Future features (:
 - [ ] Topics System
-- [ ] Multilanguage posts
 - [ ] Search Posts
 - [x] Blog on apache2 with common port
 - [x] Git deploy on Apache2 
