@@ -16,4 +16,4 @@ Lo demás se sigue escribiendo con el pasar del tiempo...
 Revisa mi [Github](https://github.com/albcm) ♥.
 
 # Contacto:
-Puedes contactarme en [machado.albeiro@protonmail.com](https://albcm.github.io/me/) ◄
+Puedes contactarme en [machado.albeiro@gmail.com](mailto:machado.albeiro@gmail.com?subject=Blog Feedback) ◄
