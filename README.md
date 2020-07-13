@@ -18,12 +18,9 @@ All this stuff is under the -MIT License-
 
 ### Upcoming blogs:
 - [x] Qr Reader and browser 
-- [ ] Sumobot
+- [ ] Sumobot 
+- [ ] Old essays
+- [ ] Reviews
 - [x] CRC
-- [ ] Boxing Routine
 - [x] Proxy Reverse Apache2
-- [ ] Git deploy local
-- [ ] Git deploy remote
-- [ ] Vagrant
 - [ ] NFC
-- [ ] "Bitacora web"
