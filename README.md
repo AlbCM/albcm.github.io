@@ -19,7 +19,7 @@ All this stuff is under the -MIT License-
 ### Upcoming blogs:
 - [x] Qr Reader and browser 
 - [ ] Sumobot 
-- [ ] Old essays
+- [x] Old essays
 - [ ] Reviews
 - [x] CRC
 - [x] Proxy Reverse Apache2
