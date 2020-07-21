@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "El código de la naturaleza: Uno es todo, todo es uno."
-date:   2017-09-27 22:19:13
+date:   2020-07-20 22:19:13
 categories: Ensayos
 ---
 
