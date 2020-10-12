@@ -17,10 +17,10 @@ Experiencia en el Análisis y diseño de software orientado a objetos uso de **U
 - Flask
 - Django
 - Anaconda
- #### Dart
- #### PHP
- #### C++
- #### C#
+#### Dart
+#### PHP
+#### C++
+#### C#
 - Unity 
 - IoT 
 #### Java
@@ -44,7 +44,8 @@ Uso de tecnologías, lenguajes y herramientas como:
 - Python
 - Liberias, bibliotecas o plataformas como Pandas, Dask, Airflow, SqlAlchemy, Flask, Numpy, scikit y herramientas para despliegue como Docker, Vagrant en conjunto con CI / CD
 
-**Servicios**:
+
+### **Servicios**:
 - AWS Batch, AWS S3, EMR, RDS, EBS, SQS, EC2, Kinesis
 - Firebase message
 - Snowflake
@@ -63,7 +64,6 @@ Experiencia como al realizar el análisis y la conciliación de información fin
 Todo esto con el propósito de brindar servicios de Big Data y Data Analysis a más de 20 millones de datos diarios, brindando a los clientes visibilidad y control de su información
 
 ## Machine learning & Data mining 
-
 Conocimientos en ciencias de datos (Machine learning, BI, Data Quality, Data mining, Big Data, Time series),  uso de herramientas como **KNIME, WEKA, Python Tools, R Libraries, Pandas, Numpy, Matplotlib, Seaborn, Plotty, Dash, Scipy, Scikit-Learn, Pytorch, Scrapy, NLTK , Keras, Tensor Flow, Statsmodels, AUTO ML**
 - Python Tools: **Pip, Anaconda, Pycharm, Jupyter notebooks **
 - Machine Learning algorithms: **Random Forest, Decision tree, Naive Bayes, K means, K-NN, Logisitic, SVM and Linear Regression.**
